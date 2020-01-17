@@ -46,7 +46,7 @@ highlight! link Type PreProc
 "highlight! link Typedef Type
 
 highlight! link Special Default
-"highlight! link SpecialChar Special
+highlight! link SpecialChar String
 "highlight! link Tag Special
 "highlight! link Delimiter Special
 highlight SpecialComment guifg=#87875f guibg=NONE gui=reverse ctermfg=101 ctermbg=NONE cterm=reverse
@@ -58,7 +58,7 @@ highlight Underlined guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE 
 
 "highlight Error guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 
-"highlight Todo guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
+highlight! link Todo Comment
 
 highlight link Title Default
 "highlight htmlStatement guifg=#878787 guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -67,9 +67,11 @@ highlight link Title Default
 "highlight cssIdentifier guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 "highlight cssClassName guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 
+" C#
+highlight! link csEndColon Default
+
 "WINDOW UI
 highlight MoreMsg guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
-highlight Todo guifg=#af5f00 guibg=NONE gui=reverse ctermfg=130 ctermbg=NONE cterm=reverse
 highlight Visual guifg=#dfdfaf guibg=#888888 gui=NONE ctermfg=187 ctermbg=95 cterm=NONE
 highlight Question guifg=#875f5f guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
 highlight Search guifg=#dfdfaf guibg=#878787 gui=NONE ctermfg=187 ctermbg=102 cterm=NONE
