@@ -69,6 +69,7 @@ highlight link Title Default
 
 " C#
 highlight! link csEndColon Default
+highlight! link csLogicSymbols Default
 
 "WINDOW UI
 highlight MoreMsg guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
