@@ -10,9 +10,10 @@ endif
 
 let g:colors_name="naysayer88"
 
-highlight! Default guifg=#edceab guibg=#042327 gui=NONE
+highlight! Default guifg=#d6b48b guibg=#042327 gui=NONE
 " link to normal does not work here for some reason...
-highlight! Normal guifg=#edceab guibg=#042327 gui=NONE
+" highlight! Normal guifg=#edceab guibg=#042327 gui=NONE
+highlight! Normal guifg=#d6b48b guibg=#042327 gui=NONE
 
 highlight! Comment guifg=#31B72C guibg=NONE gui=NONE
 
