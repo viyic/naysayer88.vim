@@ -81,3 +81,4 @@ highlight Search                     guifg=#dfdfaf       guibg=#878787      gui=
 highlight PmenuSel                   guifg=#dfdfaf       guibg=#875f5f      gui=NONE
 highlight MatchParen                 guifg=#dfdfaf       guibg=#875f5f      gui=NONE
 highlight VertSplit                  guifg=#000000       guibg=NONE         gui=NONE
+highlight! EndOfBuffer               guifg=#042327       guibg=#042327      gui=NONE
