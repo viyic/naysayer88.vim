@@ -27,7 +27,8 @@ highlight! link Float Number
 highlight! link Identifier Default
 "highlight! link Function Default
 
-highlight! Statement guifg=#ffffff guibg=NONE gui=NONE
+highlight! Statement guifg=#f8f8f2 guibg=NONE gui=NONE
+" highlight! Statement guifg=#ffffff guibg=NONE gui=NONE
 "highlight! link Conditional Statement
 "highlight! link Repeat Statement
 "highlight! link Label Statement
@@ -59,7 +60,9 @@ highlight Underlined guifg=#af5f5f guibg=NONE gui=NONE
 
 "highlight Error guifg=#af5f5f guibg=NONE gui=NONE
 
-highlight! link Todo Comment
+" highlight! link Todo Comment
+highlight! Todo guifg=#9DE3C0 guibg=bg gui=NONE
+" TODO
 
 highlight link Title Default
 "highlight htmlStatement guifg=#878787 guibg=NONE gui=NONE
@@ -74,11 +77,18 @@ highlight! link csLogicSymbols Default
 
 " Window UI
 highlight Cursor                     guifg=#000000       guibg=#dfdfaf      gui=NONE
+highlight CursorLine                                     guibg=#031216      gui=NONE
 highlight MoreMsg                    guifg=#dfaf87       guibg=NONE         gui=NONE
-highlight Visual                     guifg=#dfdfaf       guibg=#888888      gui=NONE
+" highlight Visual                     guifg=#dfdfaf       guibg=#888888      gui=NONE
+highlight Visual                     guifg=#dfdfaf       guibg=#222222      gui=reverse
 highlight Question                   guifg=#875f5f       guibg=NONE         gui=NONE
-highlight Search                     guifg=#dfdfaf       guibg=#878787      gui=NONE
-highlight PmenuSel                   guifg=#dfdfaf       guibg=#875f5f      gui=NONE
+" highlight Search                     guifg=#dfdfaf       guibg=#878787      gui=NONE
+highlight Search                     guifg=#000000       guibg=#878787      gui=NONE
+
+highlight Pmenu                      guifg=#dfdfaf       guibg=#042327      gui=NONE
+highlight PmenuSel                   guifg=#042327       guibg=#dfdfaf      gui=NONE
+" highlight PmenuSel                   guifg=#dfdfaf       guibg=#875f5f      gui=NONE
+
 highlight MatchParen                 guifg=#dfdfaf       guibg=#875f5f      gui=NONE
 highlight VertSplit                  guifg=#000000       guibg=NONE         gui=NONE
 highlight! EndOfBuffer               guifg=#042327       guibg=#042327      gui=NONE
