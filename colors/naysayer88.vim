@@ -1,5 +1,5 @@
 "AUTHOR: Jan Hahlganß
-"SCRIPT: https://github.com/roepel/naysayer88.vim
+"SCRIPT: https://github.com/jhlgns/naysayer88.vim
 
 set background=dark
 
@@ -11,8 +11,6 @@ endif
 let g:colors_name="naysayer88"
 
 highlight! Default guifg=#d6b48b guibg=#042327 gui=NONE
-" link to normal does not work here for some reason...
-" highlight! Normal guifg=#edceab guibg=#042327 gui=NONE
 highlight! Normal guifg=#d6b48b guibg=#042327 gui=NONE
 
 highlight! Comment guifg=#31B72C guibg=NONE gui=NONE
@@ -82,3 +80,4 @@ highlight PmenuSel                   guifg=#dfdfaf       guibg=#875f5f      gui=
 highlight MatchParen                 guifg=#dfdfaf       guibg=#875f5f      gui=NONE
 highlight VertSplit                  guifg=#000000       guibg=NONE         gui=NONE
 highlight! EndOfBuffer               guifg=#042327       guibg=#042327      gui=NONE
+
