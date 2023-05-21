@@ -1,5 +1,5 @@
 "AUTHOR: Jan Hahlganß
-"SCRIPT: https://github.com/roepel/naysayer88.vim
+"SCRIPT: https://github.com/jhlgns/naysayer88.vim
 
 set background=dark
 
