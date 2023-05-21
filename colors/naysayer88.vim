@@ -10,7 +10,10 @@ endif
 
 let g:colors_name="naysayer88"
 
+" real background color taken from his stream: #072626
 highlight! Default guifg=#d6b48b guibg=#042327 gui=NONE
+" Default's guibg caused a lot of problem, so we use DefaultFg instead
+highlight! DefaultFg guifg=#d6b48b gui=NONE
 " link to normal does not work here for some reason...
 " highlight! Normal guifg=#edceab guibg=#042327 gui=NONE
 highlight! Normal guifg=#d6b48b guibg=#042327 gui=NONE
@@ -24,7 +27,7 @@ highlight! Number guifg=#70c5bf guibg=NONE gui=NONE
 highlight! link Boolean Number
 highlight! link Float Number
 
-highlight! link Identifier Default
+highlight! link Identifier DefaultFg
 "highlight! link Function Default
 
 highlight! Statement guifg=#f8f8f2 guibg=NONE gui=NONE
@@ -32,7 +35,7 @@ highlight! Statement guifg=#f8f8f2 guibg=NONE gui=NONE
 "highlight! link Conditional Statement
 "highlight! link Repeat Statement
 "highlight! link Label Statement
-highlight! link Operator Default
+highlight! link Operator DefaultFg
 "highlight! link Keyword Statement
 "highlight! link Exception Statement
 
@@ -47,7 +50,7 @@ highlight! link Type PreProc
 "highlight! link Structure Type
 "highlight! link Typedef Type
 
-highlight! link Special Default
+highlight! link Special DefaultFg
 highlight! link SpecialChar String
 "highlight! link Tag Special
 "highlight! link Delimiter Special
@@ -64,7 +67,7 @@ highlight Underlined guifg=#af5f5f guibg=NONE gui=NONE
 highlight! Todo guifg=#9DE3C0 guibg=bg gui=NONE
 " TODO
 
-highlight link Title Default
+highlight link Title DefaultFg
 "highlight htmlStatement guifg=#878787 guibg=NONE gui=NONE
 "highlight htmlItalic guifg=#dfaf87 guibg=NONE gui=NONE
 "highlight htmlArg guifg=#875f5f guibg=NONE gui=NONE
@@ -72,23 +75,24 @@ highlight link Title Default
 "highlight cssClassName guifg=#dfaf87 guibg=NONE gui=NONE
 
 " C#
-highlight! link csEndColon Default
-highlight! link csLogicSymbols Default
+highlight! link csEndColon DefaultFg
+highlight! link csLogicSymbols DefaultFg
 
 " Window UI
 highlight Cursor                     guifg=#000000       guibg=#dfdfaf      gui=NONE
 highlight CursorLine                                     guibg=#031216      gui=NONE
 highlight MoreMsg                    guifg=#dfaf87       guibg=NONE         gui=NONE
-" highlight Visual                     guifg=#dfdfaf       guibg=#888888      gui=NONE
 highlight Visual                     guifg=#dfdfaf       guibg=#222222      gui=reverse
 highlight Question                   guifg=#875f5f       guibg=NONE         gui=NONE
-" highlight Search                     guifg=#dfdfaf       guibg=#878787      gui=NONE
 highlight Search                     guifg=#000000       guibg=#878787      gui=NONE
 
 highlight Pmenu                      guifg=#dfdfaf       guibg=#042327      gui=NONE
 highlight PmenuSel                   guifg=#042327       guibg=#dfdfaf      gui=NONE
-" highlight PmenuSel                   guifg=#dfdfaf       guibg=#875f5f      gui=NONE
 
 highlight MatchParen                 guifg=#dfdfaf       guibg=#875f5f      gui=NONE
 highlight VertSplit                  guifg=#000000       guibg=NONE         gui=NONE
 highlight! EndOfBuffer               guifg=#042327       guibg=#042327      gui=NONE
+
+highlight QuickFixLine guibg=#021317
+highlight Pmenu guibg=#021317
+highlight LineNr guifg=#666666
